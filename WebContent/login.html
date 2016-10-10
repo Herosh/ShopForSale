@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+<title>登录界面</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="./Public/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="./Public/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="./Public/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+<link href="./Public/css/templatemo_style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="./Public/js/jquery-1.11.1.min.js"></script>
+<script src="./Public/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./Public/js/login.js"></script>
+
+</head>
+<body class="templatemo-bg-gray" style="background-image: url('./Public/images/loginbg.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover">
+	<div class="container mylogin">
+		<div class="col-md-12">
+			<h1 class="margin-bottom-15">超市进销存系统</h1>
+			<form
+				class="form-horizontal templatemo-container templatemo-login-form-1 margin-bottom-30"
+				role="form" action="DoLogin" method="post">
+				<div class="form-group">
+					<div class="col-xs-12">
+						<div class="control-wrapper">
+							<label for="username" class="control-label fa-label"><i
+								class="fa fa-user fa-medium"></i></label> <input type="text"
+								class="form-control" id="username" placeholder="Username">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-12">
+						<div class="control-wrapper">
+							<label for="password" class="control-label fa-label"><i
+								class="fa fa-lock fa-medium"></i></label> <input type="password"
+								class="form-control" id="password" placeholder="Password">
+						</div>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<div class="col-md-12">
+						<div class="checkbox control-wrapper">
+							<label> <input type="checkbox"> 记住信息
+							</label>
+							<!-- 角色选择下拉框 -->
+							<div class="btn-group myloginul">
+								<select id="role" class="myloginul">
+									<option selected="selected" value="default">请选择</option>
+									<option value="staff">员工</option>
+									<option value="admin">管理员</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="text-center">
+					<input type="button" value="登录" onclick="checkLogin()" class="myinput" /> &nbsp;
+					<input type="reset" value="取消" class="myinput">
+					
+				</div>
+			</form>
+
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+
+.mydropdownlist {
+	background-color: #CCFFFFF;
+}
+
+#dLabel{
+	background-color: blue;
+}
+
+.mynav{
+	/* background-color: #428bca; */
+	/* background-color: #CCFFCC; */
+	background-color: #CCFFeF;
+}
+
+ .myli{
+	position: relative;
+	display: block;
+	padding: 10px 15px;
+}
+
+
+
+.stuinfo_lable{
+	font-size:25px;
+	color:#990066;
+}
+
+.main-right{
+	background: url("./Public/images/stuinfoBG.jpg")
+}
+
+
+.right-info-style{
+	/* text-align: center; */
+	padding-left: 20px;
+}
+
+.myHide{
+	display: none;
+}
+
+.myShow{
+	display: inline;
+}
+
+.myBtn{
+	border-style: solid;
+	border-width:1px;
+	border-color:black;
+	border-radius:6px;
+	background-color: #CCFFFF;
+}
+
+.myBtn:HOVER {
+	background-color: #FFFFCC;
+	border-color:#FFCCCC;
+}
+
+.canEdit{
+	margin-left:10px;
+	color:#993366;
+	display: none;
+}
+
+.myheaderrow{
+	width:100%;
+	margin-left:0px;
+	padding-left:0px;
+	text-align: center;
+	
+	background-color: #FFFFCC;
+	border-top-style:solid;
+	border-width:1px;
+	
+	font-size: 30px;
+}
+
+
+
+.myotherrow1{
+	width:100%;
+	margin-left:0px;
+	padding-left:0px;
+	text-align: center;
+	
+	background-color: #CCFFFF;
+}
+
+.myotherrow2{
+	width:100%;
+	margin-left:0px;
+	padding-left:0px;
+	text-align: center;
+}
+
+
+.myfirstcol{
+	border-bottom-style:solid;
+	border-width: 1px;
+}
+
+.mylastcol{
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-width: 1px;
+	
+	/* color:gray; */
+}
+
+.mycol{
+	border-bottom-style:solid;
+	border-left-style:solid;
+	border-width: 1px;
+	
+	
+}
+
+.row .mycol{
+	font-size: :20px;
+}
+
+.myheaderlabel{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+
+/* ############2016-06-04新增################## */
+.main{
+	border:none;
+}
+
+.right-info-style{
+	border-bottom: none;
+}
+
+.myworning{
+	color:red;
+}
+
+
+
+
+

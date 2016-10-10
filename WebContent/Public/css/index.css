@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+body, td, th {
+	//font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family:"Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", "FontAwesome", sans-serif;
+	/* font-size: 15px;
+	font-weight: 600;
+	color: #1d1007;
+	line-height: 24px;
+	color: #1d1007; */
+}
+
+.mynav {
+	background-color: #CCFFCC;
+	font-size:20px;
+}
+
+.myUpdateInput{
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	border-radius: 6px;
+	padding-left: 5px;
+	border-top-width: 3px;
+	border-right-width: 3px;
+	border-top-color: gray;
+	border-right-color: gray;
+}
+
+.myHideUpdateInput{
+	background: transparent;
+	border:none;
+}
+
+.myinfo-second{
+	font-size: 20px;
+	
+}
+
+.footer{
+	margin-top:20px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.error{
+	color:red;
+}
+
+.success{
+	color:green;
+}
+
+fieldset {
+            padding:10px;
+            margin:10px;
+            /*width:270px;*/
+            color:#333;
+            border:#CCC solid 1px;
+        }
+
+        legend {
+            text-decoration:none;
+            padding-left:5px;
+            padding-right:5px;
+            width:auto;
+            border:none;
+        }   
+
+
+
+
+
